@@ -1,5 +1,5 @@
 function f(a, b, c) {
-  if (typeof a !== 'number' && b !== 'number' && c !== 'number'){
+  if (typeof a !== 'number' || b !== 'number' || c !== 'number'){
    throw new Error('Argument is not a number');
 } 
 else {
