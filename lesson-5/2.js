@@ -4,7 +4,7 @@ for (let item of args) {
   if (typeof item === 'number'){
     sum += item;
   } else {
-    throw new Error('Aefument is not a number');
+    throw new Error('Argument is not a number');
   }
 }
   return sum;
