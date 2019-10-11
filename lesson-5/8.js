@@ -4,11 +4,11 @@ function f(arr) {
   }
 let tmp = arr.splice(0, 1);
 console.log(tmp[0]);
-if (arr.lenght) {
+if (arr.length) {
   f(arr);
   }
 }
-let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+let arr = [1, 2, 3];
 
 f(arr);
 exports.f = f;
